@@ -1,0 +1,95 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:weightSum="1"
+    android:background="@color/primary" >
+
+    <!-- ここに子の部品を追加 -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:text="ネガポジ"
+        android:background="@layout/ranking_frame"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:inputType="none"
+        android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="15dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL"
+                android:textColor="#FFFFFF"
+                android:id="@+id/all"
+                android:layout_column="11"
+                android:background="@drawable/button_negapozi_radius"
+                android:layout_marginRight="5dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="円"
+                android:textColor="#FFFFFF"
+                android:id="@+id/en"
+                android:layout_column="12"
+                android:background="@drawable/button_negapozi_radius"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="15dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="＜"
+            android:textColor="#FFFFFF"
+            android:id="@+id/kako"
+            android:layout_column="10"
+            android:background="@drawable/button_negapozi_radius"
+            android:layout_marginRight="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:id="@+id/currentMonth"
+            android:layout_column="10" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="＞"
+            android:textColor="#FFFFFF"
+            android:id="@+id/mirai"
+            android:layout_column="13"
+            android:background="@drawable/button_negapozi_radius"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+    <xcat.daiyonkaigi.guchiruna.negapozi.ChartView
+        android:id="@+id/graphview2"
+        android:layout_width="450dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <include layout="@layout/menu_button_activity" android:id="@+id/menu_layout" />
+
+</LinearLayout>

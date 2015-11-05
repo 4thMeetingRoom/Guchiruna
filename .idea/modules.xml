@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Guchiruna-Refactor.iml" filepath="$PROJECT_DIR$/Guchiruna-Refactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/afreechart-0.0.4/afreechart-0.0.4.iml" filepath="$PROJECT_DIR$/afreechart-0.0.4/afreechart-0.0.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/afreechart-0.0.4/afreechart-0.0.4.iml" filepath="$PROJECT_DIR$/afreechart-0.0.4/afreechart-0.0.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sanmoku-0.0.5/sanmoku-0.0.5.iml" filepath="$PROJECT_DIR$/sanmoku-0.0.5/sanmoku-0.0.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sanmoku-0.0.5/sanmoku-0.0.5.iml" filepath="$PROJECT_DIR$/sanmoku-0.0.5/sanmoku-0.0.5.iml" />
+    </modules>
+  </component>
+</project>
